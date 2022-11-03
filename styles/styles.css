@@ -1,7 +1,24 @@
 body {
-  background-color: blue;
+  margin: 0px;
 }
 
 h1 {
-  color: black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.top-container {
+  background-color: #CEAB93;
+}
+
+.middle-container {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+}
+
+.bottom-container {
+  background-color: red;
+  height: 200px;
+  width: 200px;
 }
