@@ -31,6 +31,16 @@ h3 {
   color: #11999E;
 }
 
+a {
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #FAF7F0;
+}
+
 .top-container {
   background-color: #d2f3ef;
   position: relative;
@@ -48,8 +58,8 @@ p {
 }
 
 .bottom-container {
-  background-color: #FAF7F0;
-  margin-bottom: 0px;
+  background-color: #d2f3ef;
+  padding: 50px 0 20px;
 }
 
 .skill-row {
@@ -134,4 +144,10 @@ p {
   background-image: -o-linear-gradient(top, #30E3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30E3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.copyright {
+  color: #11999E;
+  font-size: 0.75 rem;
+  padding: 20px 0px;
 }
