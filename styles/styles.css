@@ -38,6 +38,13 @@ h3 {
   margin-bottom: 0px;
 }
 
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
 .bottom-cloud {
   position: absolute;
 }
@@ -49,15 +56,25 @@ h3 {
 }
 
 .profile-p {
-  height: 15%;
-  width: 15%;
-  border-radius: 100%;
-  margin-top: 10px;
+  width: 20%;
+  border-radius: 50%;
 }
 
 .img-1 {
-  height: 40%;
-  width: 40%;
-  border-radius: 100%;
-  margin: 100px auto 100px auto
+  width: 30%;
+  float: left;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.img-2 {
+  width: 30%;
+  float: right;
+  border-radius: 50%;
+  margin-left: 15px;
+}
+
+.profile {
+  width: 50%;
+  margin: auto;
 }
