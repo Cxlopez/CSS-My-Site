@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0px;
   text-align: center;
   font-family: 'Rubik', sans-serif;
@@ -22,6 +23,7 @@ h2 {
   font-size: 2.5 rem;
   color: #66BFBF;
   font-weight: normal;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -32,6 +34,10 @@ h3 {
   background-color: #d2f3ef;
   position: relative;
   padding-top: 100px;
+}
+
+p {
+  line-height: 2;
 }
 
 .middle-container {
@@ -49,11 +55,11 @@ h3 {
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-  line-height: 2;
 }
 
 .bottom-cloud {
   position: absolute;
+  left: 400px;
 }
 
 .top-cloud {
@@ -89,6 +95,11 @@ h3 {
 }
 
 .profile {
+  width: 50%;
+  margin: auto;
+}
+
+.intro {
   width: 50%;
   margin: auto;
 }
